@@ -39,8 +39,7 @@ function Stones() {
                     src={product.image}
                     className="img-fluid h-100 w-100 object-fit-cover"
                     alt={product.name}
-                    onError={(e) => { e.target.src = '/images/placeholder.jpg'; }}
-                    style={{ transition: 'opacity 0.3s' }}
+                    
                   />
                 </div>
                 <div className="card-body text-center">
