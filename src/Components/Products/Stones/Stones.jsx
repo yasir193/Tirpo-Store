@@ -1,29 +1,19 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import './Stones.css'
+import productsData from '../../../data/natural.json'; // Update the path if needed
+import './Stones.css';
+
 function Stones() {
   const [products, setProducts] = useState([]);
-  const [loading, setLoading] = useState(true);
   const [activeProductId, setActiveProductId] = useState(null);
-  const [clientNumber, setClientNumber] = useState('');
 
   useEffect(() => {
-    axios.get('/natural.json')
-      .then(response => {
-        const data = response.data;
-        const filtered = data.filter(product => product.name.trim() !== '');
-        setProducts(filtered);
-        setLoading(false);
-      })
-      .catch(error => {
-        console.error('Error loading products:', error);
-        setLoading(false);
-      });
+    const filtered = productsData.filter(product => product.name.trim() !== '');
+    setProducts(filtered);
   }, []);
 
   const handleSend = (productName) => {
     const ownerNumber = '01110282887';
-    const message = `مرحبا، أريد الاستفسار عن المنتج: ${productName}\nرقم الواتساب الخاص بي: ${clientNumber}`;
+    const message = `مرحبا، أريد الاستفسار عن المنتج: ${productName}`;
     const url = `https://wa.me/2${ownerNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };
@@ -31,16 +21,6 @@ function Stones() {
   const toggleForm = (productId) => {
     setActiveProductId(activeProductId === productId ? null : productId);
   };
-
-  if (loading) {
-    return (
-      <div className="text-center py-5 bg-black text-white">
-        <div className="spinner-border text-light" role="status">
-          <span className="visually-hidden">Loading...</span>
-        </div>
-      </div>
-    );
-  }
 
   return (
     <section id="natural-products" className="py-5" style={{ backgroundColor: '#000' }}>
@@ -70,14 +50,12 @@ function Stones() {
                   )}
                 </div>
 
-                {/* Dropdown form */}
                 {activeProductId === product.id && (
                   <div className="px-3 pb-3">
-                    
                     <button
                       className="btn btn-success w-100"
                       onClick={(e) => {
-                        e.stopPropagation(); // prevent card toggle
+                        e.stopPropagation();
                         handleSend(product.name);
                       }}
                     >
