@@ -1,0 +1,14 @@
+.stones img, 
+.sand img,
+.quartz img,
+.gravel img {
+  transition: filter 0.5s ease;
+}
+
+/* Hover effect */
+.stones:hover img,
+.sand:hover img,
+.quartz:hover img,
+.gravel:hover img {
+  filter: brightness(50%);
+}
