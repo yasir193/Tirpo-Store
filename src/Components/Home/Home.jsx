@@ -1,9 +1,9 @@
 import React from "react";
 import "./Home.css";
-import stone from "../../images/احجار طبيعي/خليط احجار وزلط لحشو المزهريه.jpg";
-import clear_quartz_stone from "../../images/حجر كورتز شفاف/احجار الكورتز اصفر نقي نمره من 1_2.jpg";
-import sand from "../../images/رمل الوان/رمل ناعم نقي الوان صناعي/رمل ناعم نقي  الوان صناعي.jpg";
-import Colored_gravel from "../../images/زلط الوان وسط فرز اول/زلط اسود وسط لامع.jpg";
+import stone from "../../assets/images/احجار طبيعي/خليط احجار وزلط لحشو المزهريه.jpg";
+import clear_quartz_stone from "../../assets/images/حجر كورتز شفاف/احجار الكورتز اصفر نقي نمره من 1_2.jpg";
+import sand from "../../assets/images/رمل الوان/رمل ناعم نقي الوان صناعي/رمل ناعم نقي  الوان صناعي.jpg";
+import Colored_gravel from "../../assets/images/زلط الوان وسط فرز اول/زلط اسود وسط لامع.jpg";
 import { Link } from 'react-router-dom';
 export default function Home() {
   return (
