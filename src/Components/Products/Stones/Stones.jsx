@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import productsData from '../../../data/natural.json'; // Update the path if needed
+import productsData from '../../../data/natural.json'; // Adjust path as needed
 import './Stones.css';
 
 function Stones() {
@@ -8,7 +8,11 @@ function Stones() {
 
   useEffect(() => {
     const filtered = productsData.filter(product => product.name.trim() !== '');
-    setProducts(filtered);
+    const withImages = filtered.map(product => ({
+      ...product,
+      imageUrl: new URL(`/src/assets/images/${product.image}`, import.meta.url).href
+    }));
+    setProducts(withImages);
   }, []);
 
   const handleSend = (productName) => {
@@ -36,10 +40,10 @@ function Stones() {
               >
                 <div className="position-relative overflow-hidden" style={{ height: '200px' }}>
                   <img
-                    src={product.image}
+                    src={product.imageUrl}
                     className="img-fluid h-100 w-100 object-fit-cover"
                     alt={product.name}
-                    
+                    onError={(e) => { e.target.src = '/images/placeholder.jpg'; }}
                   />
                 </div>
                 <div className="card-body text-center">
