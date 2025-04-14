@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "احجار بيضاء  وسط مختلفه الشكل",
-    "image": "../src/images/احجار طبيعي/احجار بيضاء  وسط مختلفه الشكل.jpg",
+    "image": "احجار طبيعي/احجار بيضاء  وسط مختلفه الشكل.jpg",
     "category": "Category Name",
     "description": "N/A",
     "price": "N/A"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "احجار بيضاء تلجي صغير",
-    "image": "../src/images/احجار طبيعي/احجار بيضاء تلجي صغير.jpg",
+    "image": "احجار طبيعي/احجار بيضاء تلجي صغير.jpg",
     "category": "Category Name",
     "description": "N/A",
     "price": "N/A"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "احجار جيري  تلجي لزينة الحوض السمك",
-    "image": "../src/images/احجار طبيعي/احجار جيري  تلجي لزينة الحوض السمك.jpg",
+    "image": "احجار طبيعي/احجار جيري  تلجي لزينة الحوض السمك.jpg",
     "category": "Category Name",
     "description": "N/A",
     "price": "N/A"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "احجار جيري  مسترد بيضاء نمره2",
-    "image": "../src/images/احجار طبيعي/احجار جيري  مسترد بيضاء نمره2.jpg",
+    "image": "احجار طبيعي/احجار جيري  مسترد بيضاء نمره2.jpg",
     "category": "Category Name",
     "description": "N/A",
     "price": "N/A"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "حبيبات بيضاء حصى 12 بوصة للنباتات والحدائق ولديكور حوض السمك وللمناظر الطبيعية",
-    "image": "../src/images/احجار طبيعي/حبيبات بيضاء حصى 12 بوصة للنباتات والحدائق ولديكور حوض السمك وللمناظر الطبيعية.jpg",
+    "image": "احجار طبيعي/حبيبات بيضاء حصى 12 بوصة للنباتات والحدائق ولديكور حوض السمك وللمناظر الطبيعية.jpg",
     "category": "Category Name",
     "description": "N/A",
     "price": "N/A"
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "name": "حجر ابيض تلجي نمره 3",
-    "image": "../src/images/احجار طبيعي/حجر ابيض تلجي نمره 3.jpg",
+    "image": "احجار طبيعي/حجر ابيض تلجي نمره 3.jpg",
     "category": "Category Name",
     "description": "N/A",
     "price": "N/A"
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "name": "حجر ابيض نمره 1_2",
-    "image": "../src/images/احجار طبيعي/حجر ابيض نمره 1_2 (2).jpg",
+    "image": "احجار طبيعي/حجر ابيض نمره 1_2 (2).jpg",
     "category": "Category Name",
     "description": "N/A",
     "price": "N/A"
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "name": "حجر ابيض نمره 1_2",
-    "image": "../src/images/احجار طبيعي/حجر ابيض نمره 1_2.jpg",
+    "image": "احجار طبيعي/حجر ابيض نمره 1_2.jpg",
     "category": "Category Name",
     "description": "N/A",
     "price": "N/A"
@@ -74,7 +74,7 @@
   {
     "id": 10,
     "name": "حجر تلجي وسط مختلف الشكل نمره 1_1.5_2",
-    "image": "../src/images/احجار طبيعي/حجر تلجي وسط مختلف الشكل نمره 1_1.5_2.jpg",
+    "image": "احجار طبيعي/حجر تلجي وسط مختلف الشكل نمره 1_1.5_2.jpg",
     "category": "Category Name",
     "description": "N/A",
     "price": "N/A"
@@ -82,7 +82,7 @@
   {
     "id": 11,
     "name": "حجر زعفران نمره 2",
-    "image": "../src/images/احجار طبيعي/حجر زعفران نمره 2.jpg",
+    "image": "احجار طبيعي/حجر زعفران نمره 2.jpg",
     "category": "Category Name",
     "description": "N/A",
     "price": "N/A"
@@ -90,7 +90,7 @@
   {
     "id": 12,
     "name": "خليط احجار الوان طبيعي",
-    "image": "../src/images/احجار طبيعي/خليط احجار الوان طبيعي.jpg",
+    "image": "احجار طبيعي/خليط احجار الوان طبيعي.jpg",
     "category": "Category Name",
     "description": "N/A",
     "price": "N/A"
@@ -98,7 +98,7 @@
   {
     "id": 13,
     "name": "خليط احجار وزلط لحشو المزهريه",
-    "image": "../src/images/احجار طبيعي/خليط احجار وزلط لحشو المزهريه.jpg",
+    "image": "احجار طبيعي/خليط احجار وزلط لحشو المزهريه.jpg",
     "category": "Category Name",
     "description": "N/A",
     "price": "N/A"
@@ -106,7 +106,7 @@
   {
     "id": 14,
     "name": "خليط الوان سلطه نمره 1.5",
-    "image": "../src/images/احجار طبيعي/خليط الوان سلطه نمره 1.5.jpg",
+    "image": "احجار طبيعي/خليط الوان سلطه نمره 1.5.jpg",
     "category": "Category Name",
     "description": "N/A",
     "price": "N/A"
@@ -114,7 +114,7 @@
   {
     "id":15,
     "name":"خليط الوان سلطه نمره 2",
-    "image":"../src/images/احجار طبيعي/خليط الوان سلطه نمره 2.jpg",
+    "image":"احجار طبيعي/خليط الوان سلطه نمره 2.jpg",
     "category":"Category Name"
   }
 ]
