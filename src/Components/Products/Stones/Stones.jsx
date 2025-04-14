@@ -16,7 +16,7 @@ function Stones() {
   }, []);
 
   const handleSend = (productName) => {
-    const ownerNumber = '01110282887';
+    const ownerNumber = '01000178117';
     const message = `مرحبا، أريد الاستفسار عن المنتج: ${productName}`;
     const url = `https://wa.me/2${ownerNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
