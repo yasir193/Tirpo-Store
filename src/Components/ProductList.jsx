@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import productsData from "../data/products.json";
-import StyledCard from "./Common/StyledCard";
+import StyledCard from "./common/StyledCard";
 
 export default function ProductList() {
   const { subcategoryId } = useParams();
