@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../../assets/imgs/tirpo.png"
 import './Navbar.css'
 export default function Navbar() {
   return (
     <>
       <nav className="navbar bg-white navbar-expand-lg rtl mainColorBackground">
         <div className="container-fluid">
-          <Link className="navbar-brand m-0 pe-md-2 w-15" to="/#whoWeAre">
-            <span className="fw-semibold ">تيربو ستور</span>
+          <Link className="navbar-brand m-0 p-0 pe-sm-2 w-15" to="/#whoWeAre">
+            <img src={logo} className="logo" alt="logo" />
           </Link>
           <button
             className="navbar-toggler"

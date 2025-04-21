@@ -37,7 +37,7 @@ export default function ProductList() {
               subtitle={product.price !== "N/A" ? product.price : ""}
               onClick={() => handleCardClick(product.id)}
               showWhatsApp={isSelected}
-              whatsappMessage={`مرحبا، أود الاستفسار عن المنتج: ${product.name}`}
+              whatsappMessage={`مرحبا، أود الاستفسار عن: ${product.name}`}
               phoneNumber="01000178117"
             />
           );

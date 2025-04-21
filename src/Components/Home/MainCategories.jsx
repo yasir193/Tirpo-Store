@@ -22,7 +22,7 @@ export default function MainCategories() {
                   <Link to={`/category/${category.id}`}>
                     <img
                       src={imageUrl}
-                      className="w-100 opacity-75"
+                      className="w-100 vh-100 opacity-75"
                       alt={category.name}
                     />
                     <h3 className="position-absolute top-50 start-50 translate-middle text-white m-0">

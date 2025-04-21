@@ -89,12 +89,7 @@
 }
 
 
-/* Optional: better padding for small screens */
-@media (max-width: 576px) {
-  .card {
-    margin-bottom: 1.5rem;
-  }
-}
+
 
 /* Fix text scaling on small screens */
 @media (max-width: 576px) {
@@ -107,6 +102,7 @@
   }
 
   .card {
+    margin-bottom: 1.5rem;
     border-radius: 8px;
   }
 }

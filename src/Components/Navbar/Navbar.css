@@ -1,8 +1,19 @@
 .rtl{
   direction: rtl;
 }
-body{
-  font-family: "Noto Kufi Arabic", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+.logo{
+  width: 40%;
+  height: 40%;
+}
+.w-15{
+  width: 15%;
+}
+
+
+
+
+@media (max-width: 576px) {
+  .w-15{
+    width: 30%;
+  }
 }
