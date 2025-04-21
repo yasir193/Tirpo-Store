@@ -4,7 +4,7 @@ import './Navbar.css'
 export default function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg rtl mainColorBackground">
+      <nav className="navbar bg-white navbar-expand-lg rtl mainColorBackground">
         <div className="container-fluid">
           <Link className="navbar-brand m-0 pe-md-2 w-15" to="/#whoWeAre">
             <span className="fw-semibold ">تيربو ستور</span>
@@ -34,7 +34,7 @@ export default function Navbar() {
               <li className="nav-item mx-2">
                 <Link
                   className="nav-link fw-semibold mainColor"
-                  to="/#productsForPray"
+                  to="/#products"
                 >
                   منتجاتنا
                 </Link>

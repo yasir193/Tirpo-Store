@@ -1,0 +1,112 @@
+/* CardStyles.css */
+
+/* Card image hover effect */
+.card:hover img {
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Card hover animation */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #1a1a1a !important;
+  color: #fff;
+  border-radius: 10px;
+}
+
+/* On hover: lift the card and add glow */
+.card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
+}
+
+/* Card title styling */
+.card-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Price muted text with good contrast */
+.card .text-muted {
+  color: #ccc !important;
+}
+
+/* Card input styling */
+.card .form-control {
+  background-color: #2a2a2a;
+  color: white;
+  border: 1px solid #444;
+}
+
+.card .form-control::placeholder {
+  color: #aaa;
+}
+
+/* Card WhatsApp button */
+.card .btn-success {
+  background-color: #25D366;
+  border: none;
+}
+
+/* Loading container */
+.loading-container {
+  background-color: #000;
+  color: #fff;
+  padding: 5rem 0;
+  text-align: center;
+}
+/* WhatsApp button inside the card */
+.card .btn-success {
+  background-color: #25D366;
+  border: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+/* WhatsApp button hover effect */
+.card .btn-success:hover {
+  background-color: #1ebe5d;
+}
+
+/* Responsive tweak: center the button and spacing */
+.card .btn-success {
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.75rem;
+}
+.whatsapp-button {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+}
+
+.whatsapp-button.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+
+/* Optional: better padding for small screens */
+@media (max-width: 576px) {
+  .card {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Fix text scaling on small screens */
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card .text-muted {
+    font-size: 0.85rem;
+  }
+
+  .card {
+    border-radius: 8px;
+  }
+}
