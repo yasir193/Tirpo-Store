@@ -20,10 +20,10 @@ const StyledCard = ({
         style={{ cursor: "pointer", ...style }}
         onClick={onClick}
       >
-        <div className="position-relative overflow-hidden ratio ratio-4x3">
+        <div className="position-relative overflow-hidden ratio ratio-sm-4x3 ratio-1x1">
           <img
             src={image}
-            className="img-fluid object-fit-cover"
+            className="img-fluid  object-fit-cover"
             alt={title}
             onError={(e) => (e.target.src = "/images/placeholder.jpg")}
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
