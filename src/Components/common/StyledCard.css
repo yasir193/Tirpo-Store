@@ -91,5 +91,43 @@
   }
 }
 
+.hidden {
+  opacity: 0;
+  transform: scale(0.5); /* Initial hidden state */
+  transition: all 0.3s ease-out;
+}
 
+.bounceIn {
+  animation-name: bounceIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+/* Keyframes for bounceIn */
+@keyframes bounceIn {
+  0%, 20%, 40%, 60%, 80%, 100% {
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+    opacity: 0;
+    transform: scale3d(0.85, 0.85, 0.85);
+  }
+  20% {
+    transform: scale3d(1.01, 1.01, 1.01);
+  }
+  40% {
+    transform: scale3d(0.95, 0.95, 0.95);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(1.01, 1.01, 1.01);
+  }
+  80% {
+    transform: scale3d(0.99, 0.99, 0.99);
+  }
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
 

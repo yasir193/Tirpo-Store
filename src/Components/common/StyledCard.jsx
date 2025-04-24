@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
 const StyledCard = ({
@@ -13,16 +13,41 @@ const StyledCard = ({
   whatsappMessage = "",
 }) => {
   const [showWhatsApp, setShowWhatsApp] = useState(false);
+  const [inView, setInView] = useState(false);
+  const cardRef = useRef(null);
 
   const handleCardClick = () => {
-    setShowWhatsApp((prev) => !prev); // toggle the state
+    setShowWhatsApp((prev) => !prev);
     if (onClick) onClick();
   };
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setInView(true);
+          observer.unobserve(entry.target);
+        }
+      },
+      {
+        threshold: 0.5,
+      }
+    );
+
+    if (cardRef.current) {
+      observer.observe(cardRef.current);
+    }
+
+    return () => {
+      if (cardRef.current) observer.unobserve(cardRef.current);
+    };
+  }, []);
 
   return (
     <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
       <div
-        className="card h-100 border-0 shadow"
+        ref={cardRef}
+        className={`card h-100 border-0 shadow ${inView ? "bounceIn" : "hidden"}`}
         style={{ cursor: "pointer", ...style }}
         onClick={handleCardClick}
       >
