@@ -38,7 +38,7 @@ export default function ProductList() {
               onClick={() => handleCardClick(product.id)}
               showWhatsApp={isSelected}
               whatsappMessage={`مرحبا، أود الاستفسار عن: ${product.name}`}
-              phoneNumber="01000178117"
+              phoneNumber="=+2001000178117"
             />
           );
         })}
