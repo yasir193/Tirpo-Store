@@ -70,7 +70,7 @@ const StyledCard = ({
               <a
                 className="btn btn-success mt-2"
                 href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-                  `${whatsappMessage} ${title}`
+                  `${whatsappMessage}`
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
