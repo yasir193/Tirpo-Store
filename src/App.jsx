@@ -7,7 +7,7 @@ import MainCategories from './Components/Home/MainCategories';
 import CategoryList from './Components/CategoryList';
 import ProductList from './Components/ProductList';
 import TypesOfSand from "./Components/Sand/TypesOfSand";
-import MSand from './Components/Sand/mSand';
+import MSand from './Components/Sand/MSand';
 import SmoothySand from './Components/Sand/SmoothySand';
 import RoughSand from "./Components/Sand/RoughSand";
 
