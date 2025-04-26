@@ -1,15 +1,15 @@
 import React from 'react';
-import StyledCard from '../common/StyledCard';
-import blueSandImage from '../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم  ازرق سماوي.jpg';
-import purpleSandImage from '../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم  بنفسجي.jpg';
-import blueSandImage2 from '../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم ازرق.jpg';
-import whiteSandImage from '../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم ابيض.jpg';
-import redSandImage from '../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم احمر.jpg';
-import greenSandImage from '../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم اخضر.jpg';
-import purpleSandImage2 from '../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم ارجواني.jpg';
-import orangeSandImage from '../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم لون اورنج.jpg';
-import brownSandImage from '../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم نقي  الوان صناعي.jpg';
-import yellowSandImage from '../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم اصفر.jpg';
+import blueSandImage from '../../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم  ازرق سماوي.jpg';
+import purpleSandImage from '../../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم  بنفسجي.jpg';
+import blueSandImage2 from '../../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم ازرق.jpg';
+import whiteSandImage from '../../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم ابيض.jpg';
+import redSandImage from '../../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم احمر.jpg';
+import greenSandImage from '../../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم اخضر.jpg';
+import purpleSandImage2 from '../../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم ارجواني.jpg';
+import orangeSandImage from '../../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم لون اورنج.jpg';
+import brownSandImage from '../../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم نقي  الوان صناعي.jpg';
+import yellowSandImage from '../../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم اصفر.jpg';
+import StyledCard from './../../common/StyledCard';
 
 export default function SmoothySand() {
   return (

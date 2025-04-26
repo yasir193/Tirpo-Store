@@ -1,12 +1,12 @@
 import React from 'react'
-import StyledCard from './../common/StyledCard';
-import pinkSand from '../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل خشن/رمل بينك خشن.jpg'
+import pinkSand from '../../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل خشن/رمل بينك خشن.jpg'
+import StyledCard from './../../common/StyledCard';
 
 export default function RoughSand() {
   return <>
   
   <div className="container py-4">
-      <h2 className="text-center text-white mb-4">{'رمل ناعم'}</h2>
+      <h2 className="text-center text-white mb-4">{'رمل خشن'}</h2>
       <div className="row">
         <StyledCard
           image={pinkSand}

@@ -1,7 +1,7 @@
 import React from 'react'
-import StyledCard from '../common/StyledCard'
-import smoothySand from '../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم اصفر.jpg'
-import roughSand from '../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل خشن/رمل بينك خشن.jpg'
+import smoothySand from '../../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل ناعم/رمل ناعم اصفر.jpg'
+import roughSand from '../../../assets/imgs/رمل الوان/رمل الوان صناعي/رمل خشن/رمل بينك خشن.jpg'
+import StyledCard from './../../common/StyledCard';
 export default function mSand() {
   return <>
   

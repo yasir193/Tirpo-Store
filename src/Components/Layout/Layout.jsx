@@ -3,6 +3,7 @@ import Navbar from './../Navbar/Navbar';
 import Footer from './../Footer/Footer';
 import SideBar from './../SideBar/SideBar';
 import { Outlet } from 'react-router-dom';
+import WhatsAppButton from './../common/WhatsAppButton';
 
 export default function Layout() {
   return <>
@@ -11,7 +12,7 @@ export default function Layout() {
     
       <Outlet/>
     
-    
+    <WhatsAppButton/>
   
   </>
 }

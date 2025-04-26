@@ -1,0 +1,51 @@
+/* RTL WhatsApp Button */
+.whatsapp-button {
+  position: fixed;
+  bottom: 30px;
+  left: 30px; /* Changed from left to right */
+  background-color: #25D366;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #128C7E;
+  transform: scale(1.1);
+}
+
+.whatsapp-icon {
+  font-size: 36px;
+}
+
+.whatsapp-tooltip {
+  position: absolute;
+  left: 70px; /* Changed from right to left */
+  background-color: #075E54;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.whatsapp-button:hover .whatsapp-tooltip {
+  opacity: 1;
+}
+
+/* RTL specific adjustments */
+[dir="rtl"] .whatsapp-tooltip {
+  left: auto;
+  right: 70px;
+}
