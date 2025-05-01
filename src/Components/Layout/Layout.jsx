@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from './../Navbar/Navbar';
-import Footer from './../Footer/Footer';
-import SideBar from './../SideBar/SideBar';
+import { Analytics } from "@vercel/analytics/react"
 import { Outlet } from 'react-router-dom';
 import WhatsAppButton from './../common/WhatsAppButton';
 
@@ -13,6 +12,7 @@ export default function Layout() {
       <Outlet/>
     
     <WhatsAppButton/>
+    <Analytics/>
   
   </>
 }
